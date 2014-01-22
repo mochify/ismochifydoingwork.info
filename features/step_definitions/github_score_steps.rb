@@ -6,16 +6,16 @@ Given(/^Team2 has done no work recently on github$/) do
   GithubInfo.stub(:recent_activity_counts).with(days: Foreman.github_history_range) { Array.new(0, 0) }
 end
 
-When(/^the foreman calculates productivity for (.*)$/) do |team|
+When(/^the foreman calculates productivity for (.*)$/) do |org|
   @scores ||= {}
-  @scores[team] = Foreman.team_score
+  @scores[org] = Foreman.org_score
 end
 
-Then(/^the score for (.*) should be (.*)$/) do |team, descriptor|
+Then(/^the score for (.*) should be (.*)$/) do |org, descriptor|
   case descriptor
   when "positive"
-    @scores[team].should be > 0
+    @scores[org].should be > 0
   when "zero"
-    @scores[team].should == 0
+    @scores[org].should == 0
   end
 end

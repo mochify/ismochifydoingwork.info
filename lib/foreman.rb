@@ -3,7 +3,7 @@ class Foreman
     60
   end
 
-  def self.team_score
+  def self.org_score
     activity = GithubInfo.recent_activity_counts(days: github_history_range)
     days_active = activity.count { |c| c > 0 }
     (days_active.to_f / github_history_range) * 100
