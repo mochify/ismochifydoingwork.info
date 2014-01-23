@@ -41,6 +41,7 @@ group :test do
   gem 'database_cleaner'
   gem 'vcr'
   gem 'webmock'
+  gem 'timecop'
 end
 
 # Use ActiveModel has_secure_password
