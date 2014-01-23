@@ -1,9 +1,9 @@
 Given(/^Team1 has worked recently on github$/) do
-  GithubInfo.stub(:activity_counts).with(anything()) { Array.new(60, 1) }
+  GithubInfo.stub(:all_repo_commits) { Array.new(52, 1) }
 end
 
 Given(/^Team2 has done no work recently on github$/) do
-  GithubInfo.stub(:activity_counts).with(anything()) { Array.new(0, 0) }
+  GithubInfo.stub(:all_repo_commits) { Array.new(52, 0) }
 end
 
 When(/^the foreman calculates productivity for (.*)$/) do |org|
