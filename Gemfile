@@ -27,8 +27,9 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-# Github api wrapper
-gem "octokit", "~> 2.0"
+# Github api wrapper and caching
+gem 'octokit', '~> 2.0'
+gem 'faraday-http-cache'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

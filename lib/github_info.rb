@@ -1,10 +1,19 @@
-require 'date'
 require 'octokit'
+require 'faraday/http_cache'
 
 class GithubInfo
   Octokit.configure do |c|
     c.access_token = ENV.fetch("MOCHIFYDOINGWORK_OAUTH")
   end
+
+  stack = Faraday::RackBuilder.new do |builder|
+    builder.use Faraday::HttpCache
+    builder.use Octokit::Response::RaiseError
+    builder.adapter Faraday.default_adapter
+  end
+
+  Octokit.middleware = stack
+
 
   def self.all_repositories
     repositories = (Octokit.organization_repositories(ENV.fetch("MOCHIFYDOINGWORK_ORGNAME")))

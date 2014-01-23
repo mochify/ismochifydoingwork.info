@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:50 GMT
+      - Thu, 23 Jan 2014 01:21:05 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4763'
+      - '4999'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -59,7 +59,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BC:28C5A1:52E0681E
+      - 183C75B1:77BD:419DD3:52E06E81
     body:
       encoding: UTF-8
       string: "[{\"id\":15229879,\"name\":\"renderly\",\"full_name\":\"mochify/renderly\",\"owner\":{\"login\":\"mochify\",\"id\":3614541,\"avatar_url\":\"https://gravatar.com/avatar/718b5b10318dcb1857356e1c1d27cc06?d=https%3A%2F%2Fidenticons.github.com%2F5b67804777c832f2f0f0a818a1f40bc5.png&r=x\",\"gravatar_id\":\"718b5b10318dcb1857356e1c1d27cc06\",\"url\":\"https://api.github.com/users/mochify\",\"html_url\":\"https://github.com/mochify\",\"followers_url\":\"https://api.github.com/users/mochify/followers\",\"following_url\":\"https://api.github.com/users/mochify/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/mochify/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/mochify/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/mochify/subscriptions\",\"organizations_url\":\"https://api.github.com/users/mochify/orgs\",\"repos_url\":\"https://api.github.com/users/mochify/repos\",\"events_url\":\"https://api.github.com/users/mochify/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/mochify/received_events\",\"type\":\"Organization\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/mochify/renderly\",\"description\":\"A
@@ -72,7 +72,7 @@ http_interactions:
         REST API wrapper in Clojure\",\"fork\":false,\"url\":\"https://api.github.com/repos/mochify/hiroba\",\"forks_url\":\"https://api.github.com/repos/mochify/hiroba/forks\",\"keys_url\":\"https://api.github.com/repos/mochify/hiroba/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/mochify/hiroba/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/mochify/hiroba/teams\",\"hooks_url\":\"https://api.github.com/repos/mochify/hiroba/hooks\",\"issue_events_url\":\"https://api.github.com/repos/mochify/hiroba/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/mochify/hiroba/events\",\"assignees_url\":\"https://api.github.com/repos/mochify/hiroba/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/mochify/hiroba/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/mochify/hiroba/tags\",\"blobs_url\":\"https://api.github.com/repos/mochify/hiroba/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/mochify/hiroba/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/mochify/hiroba/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/mochify/hiroba/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/mochify/hiroba/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/mochify/hiroba/languages\",\"stargazers_url\":\"https://api.github.com/repos/mochify/hiroba/stargazers\",\"contributors_url\":\"https://api.github.com/repos/mochify/hiroba/contributors\",\"subscribers_url\":\"https://api.github.com/repos/mochify/hiroba/subscribers\",\"subscription_url\":\"https://api.github.com/repos/mochify/hiroba/subscription\",\"commits_url\":\"https://api.github.com/repos/mochify/hiroba/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/mochify/hiroba/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/mochify/hiroba/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/mochify/hiroba/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/mochify/hiroba/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/mochify/hiroba/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/mochify/hiroba/merges\",\"archive_url\":\"https://api.github.com/repos/mochify/hiroba/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/mochify/hiroba/downloads\",\"issues_url\":\"https://api.github.com/repos/mochify/hiroba/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/mochify/hiroba/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/mochify/hiroba/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/mochify/hiroba/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/mochify/hiroba/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/mochify/hiroba/releases{/id}\",\"created_at\":\"2014-01-19T04:10:55Z\",\"updated_at\":\"2014-01-19T04:14:20Z\",\"pushed_at\":\"2014-01-19T04:14:20Z\",\"git_url\":\"git://github.com/mochify/hiroba.git\",\"ssh_url\":\"git@github.com:mochify/hiroba.git\",\"clone_url\":\"https://github.com/mochify/hiroba.git\",\"svn_url\":\"https://github.com/mochify/hiroba\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":16039948,\"name\":\"dominion\",\"full_name\":\"mochify/dominion\",\"owner\":{\"login\":\"mochify\",\"id\":3614541,\"avatar_url\":\"https://gravatar.com/avatar/718b5b10318dcb1857356e1c1d27cc06?d=https%3A%2F%2Fidenticons.github.com%2F5b67804777c832f2f0f0a818a1f40bc5.png&r=x\",\"gravatar_id\":\"718b5b10318dcb1857356e1c1d27cc06\",\"url\":\"https://api.github.com/users/mochify\",\"html_url\":\"https://github.com/mochify\",\"followers_url\":\"https://api.github.com/users/mochify/followers\",\"following_url\":\"https://api.github.com/users/mochify/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/mochify/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/mochify/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/mochify/subscriptions\",\"organizations_url\":\"https://api.github.com/users/mochify/orgs\",\"repos_url\":\"https://api.github.com/users/mochify/repos\",\"events_url\":\"https://api.github.com/users/mochify/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/mochify/received_events\",\"type\":\"Organization\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/mochify/dominion\",\"description\":\"A
         mini-project for fillibuster to do~\",\"fork\":false,\"url\":\"https://api.github.com/repos/mochify/dominion\",\"forks_url\":\"https://api.github.com/repos/mochify/dominion/forks\",\"keys_url\":\"https://api.github.com/repos/mochify/dominion/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/mochify/dominion/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/mochify/dominion/teams\",\"hooks_url\":\"https://api.github.com/repos/mochify/dominion/hooks\",\"issue_events_url\":\"https://api.github.com/repos/mochify/dominion/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/mochify/dominion/events\",\"assignees_url\":\"https://api.github.com/repos/mochify/dominion/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/mochify/dominion/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/mochify/dominion/tags\",\"blobs_url\":\"https://api.github.com/repos/mochify/dominion/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/mochify/dominion/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/mochify/dominion/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/mochify/dominion/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/mochify/dominion/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/mochify/dominion/languages\",\"stargazers_url\":\"https://api.github.com/repos/mochify/dominion/stargazers\",\"contributors_url\":\"https://api.github.com/repos/mochify/dominion/contributors\",\"subscribers_url\":\"https://api.github.com/repos/mochify/dominion/subscribers\",\"subscription_url\":\"https://api.github.com/repos/mochify/dominion/subscription\",\"commits_url\":\"https://api.github.com/repos/mochify/dominion/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/mochify/dominion/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/mochify/dominion/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/mochify/dominion/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/mochify/dominion/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/mochify/dominion/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/mochify/dominion/merges\",\"archive_url\":\"https://api.github.com/repos/mochify/dominion/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/mochify/dominion/downloads\",\"issues_url\":\"https://api.github.com/repos/mochify/dominion/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/mochify/dominion/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/mochify/dominion/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/mochify/dominion/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/mochify/dominion/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/mochify/dominion/releases{/id}\",\"created_at\":\"2014-01-19T04:25:57Z\",\"updated_at\":\"2014-01-22T20:01:18Z\",\"pushed_at\":\"2014-01-22T18:23:44Z\",\"git_url\":\"git://github.com/mochify/dominion.git\",\"ssh_url\":\"git@github.com:mochify/dominion.git\",\"clone_url\":\"https://github.com/mochify/dominion.git\",\"svn_url\":\"https://github.com/mochify/dominion\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":10,\"forks\":0,\"open_issues\":10,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":16048070,\"name\":\"mochi-ideas\",\"full_name\":\"mochify/mochi-ideas\",\"owner\":{\"login\":\"mochify\",\"id\":3614541,\"avatar_url\":\"https://gravatar.com/avatar/718b5b10318dcb1857356e1c1d27cc06?d=https%3A%2F%2Fidenticons.github.com%2F5b67804777c832f2f0f0a818a1f40bc5.png&r=x\",\"gravatar_id\":\"718b5b10318dcb1857356e1c1d27cc06\",\"url\":\"https://api.github.com/users/mochify\",\"html_url\":\"https://github.com/mochify\",\"followers_url\":\"https://api.github.com/users/mochify/followers\",\"following_url\":\"https://api.github.com/users/mochify/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/mochify/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/mochify/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/mochify/subscriptions\",\"organizations_url\":\"https://api.github.com/users/mochify/orgs\",\"repos_url\":\"https://api.github.com/users/mochify/repos\",\"events_url\":\"https://api.github.com/users/mochify/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/mochify/received_events\",\"type\":\"Organization\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/mochify/mochi-ideas\",\"description\":\"Uh...ideas.\",\"fork\":false,\"url\":\"https://api.github.com/repos/mochify/mochi-ideas\",\"forks_url\":\"https://api.github.com/repos/mochify/mochi-ideas/forks\",\"keys_url\":\"https://api.github.com/repos/mochify/mochi-ideas/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/mochify/mochi-ideas/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/mochify/mochi-ideas/teams\",\"hooks_url\":\"https://api.github.com/repos/mochify/mochi-ideas/hooks\",\"issue_events_url\":\"https://api.github.com/repos/mochify/mochi-ideas/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/mochify/mochi-ideas/events\",\"assignees_url\":\"https://api.github.com/repos/mochify/mochi-ideas/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/mochify/mochi-ideas/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/mochify/mochi-ideas/tags\",\"blobs_url\":\"https://api.github.com/repos/mochify/mochi-ideas/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/mochify/mochi-ideas/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/mochify/mochi-ideas/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/mochify/mochi-ideas/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/mochify/mochi-ideas/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/mochify/mochi-ideas/languages\",\"stargazers_url\":\"https://api.github.com/repos/mochify/mochi-ideas/stargazers\",\"contributors_url\":\"https://api.github.com/repos/mochify/mochi-ideas/contributors\",\"subscribers_url\":\"https://api.github.com/repos/mochify/mochi-ideas/subscribers\",\"subscription_url\":\"https://api.github.com/repos/mochify/mochi-ideas/subscription\",\"commits_url\":\"https://api.github.com/repos/mochify/mochi-ideas/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/mochify/mochi-ideas/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/mochify/mochi-ideas/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/mochify/mochi-ideas/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/mochify/mochi-ideas/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/mochify/mochi-ideas/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/mochify/mochi-ideas/merges\",\"archive_url\":\"https://api.github.com/repos/mochify/mochi-ideas/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/mochify/mochi-ideas/downloads\",\"issues_url\":\"https://api.github.com/repos/mochify/mochi-ideas/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/mochify/mochi-ideas/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/mochify/mochi-ideas/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/mochify/mochi-ideas/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/mochify/mochi-ideas/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/mochify/mochi-ideas/releases{/id}\",\"created_at\":\"2014-01-19T15:07:41Z\",\"updated_at\":\"2014-01-19T15:07:41Z\",\"pushed_at\":\"2014-01-19T15:07:41Z\",\"git_url\":\"git://github.com/mochify/mochi-ideas.git\",\"ssh_url\":\"git@github.com:mochify/mochi-ideas.git\",\"clone_url\":\"https://github.com/mochify/mochi-ideas.git\",\"svn_url\":\"https://github.com/mochify/mochi-ideas\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}}]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:50 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:05 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/renderly/forks
@@ -96,7 +96,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:52 GMT
+      - Thu, 23 Jan 2014 01:21:05 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -106,9 +106,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4762'
+      - '4998'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -132,13 +132,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BC:28C6D4:52E0681F
+      - 183C75B1:77BE:2BC305:52E06E81
     body:
       encoding: UTF-8
       string: "[{\"id\":15518136,\"name\":\"renderly\",\"full_name\":\"birryree/renderly\",\"owner\":{\"login\":\"birryree\",\"id\":809026,\"avatar_url\":\"https://gravatar.com/avatar/07c434f9f1d28ef4e53b6e20e9366726?d=https%3A%2F%2Fidenticons.github.com%2F722300a7bfea1b13321bbf6816415202.png&r=x\",\"gravatar_id\":\"07c434f9f1d28ef4e53b6e20e9366726\",\"url\":\"https://api.github.com/users/birryree\",\"html_url\":\"https://github.com/birryree\",\"followers_url\":\"https://api.github.com/users/birryree/followers\",\"following_url\":\"https://api.github.com/users/birryree/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/birryree/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/birryree/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/birryree/subscriptions\",\"organizations_url\":\"https://api.github.com/users/birryree/orgs\",\"repos_url\":\"https://api.github.com/users/birryree/repos\",\"events_url\":\"https://api.github.com/users/birryree/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/birryree/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/birryree/renderly\",\"description\":\"A
         non-proprietary version of my Rendering automation library/toolkit.\",\"fork\":true,\"url\":\"https://api.github.com/repos/birryree/renderly\",\"forks_url\":\"https://api.github.com/repos/birryree/renderly/forks\",\"keys_url\":\"https://api.github.com/repos/birryree/renderly/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/birryree/renderly/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/birryree/renderly/teams\",\"hooks_url\":\"https://api.github.com/repos/birryree/renderly/hooks\",\"issue_events_url\":\"https://api.github.com/repos/birryree/renderly/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/birryree/renderly/events\",\"assignees_url\":\"https://api.github.com/repos/birryree/renderly/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/birryree/renderly/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/birryree/renderly/tags\",\"blobs_url\":\"https://api.github.com/repos/birryree/renderly/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/birryree/renderly/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/birryree/renderly/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/birryree/renderly/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/birryree/renderly/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/birryree/renderly/languages\",\"stargazers_url\":\"https://api.github.com/repos/birryree/renderly/stargazers\",\"contributors_url\":\"https://api.github.com/repos/birryree/renderly/contributors\",\"subscribers_url\":\"https://api.github.com/repos/birryree/renderly/subscribers\",\"subscription_url\":\"https://api.github.com/repos/birryree/renderly/subscription\",\"commits_url\":\"https://api.github.com/repos/birryree/renderly/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/birryree/renderly/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/birryree/renderly/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/birryree/renderly/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/birryree/renderly/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/birryree/renderly/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/birryree/renderly/merges\",\"archive_url\":\"https://api.github.com/repos/birryree/renderly/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/birryree/renderly/downloads\",\"issues_url\":\"https://api.github.com/repos/birryree/renderly/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/birryree/renderly/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/birryree/renderly/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/birryree/renderly/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/birryree/renderly/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/birryree/renderly/releases{/id}\",\"created_at\":\"2013-12-30T01:40:21Z\",\"updated_at\":\"2014-01-22T20:05:28Z\",\"pushed_at\":\"2014-01-22T20:05:27Z\",\"git_url\":\"git://github.com/birryree/renderly.git\",\"ssh_url\":\"git@github.com:birryree/renderly.git\",\"clone_url\":\"https://github.com/birryree/renderly.git\",\"svn_url\":\"https://github.com/birryree/renderly\",\"homepage\":null,\"size\":1293,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"C#\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:52 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:05 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/mochify.github.io/forks
@@ -162,7 +162,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:53 GMT
+      - Thu, 23 Jan 2014 01:21:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -170,9 +170,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4761'
+      - '4997'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -198,12 +198,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BE:25F6A9:52E06821
+      - 183C75B1:77BC:2F27B3:52E06E82
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:54 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:06 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/hippo/forks
@@ -227,7 +227,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:55 GMT
+      - Thu, 23 Jan 2014 01:21:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -237,9 +237,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4760'
+      - '4996'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -263,13 +263,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BC:28CA54:52E06823
+      - 183C75B1:77BE:2BC38F:52E06E82
     body:
       encoding: UTF-8
       string: "[{\"id\":15382215,\"name\":\"hippo\",\"full_name\":\"birryree/hippo\",\"owner\":{\"login\":\"birryree\",\"id\":809026,\"avatar_url\":\"https://gravatar.com/avatar/07c434f9f1d28ef4e53b6e20e9366726?d=https%3A%2F%2Fidenticons.github.com%2F722300a7bfea1b13321bbf6816415202.png&r=x\",\"gravatar_id\":\"07c434f9f1d28ef4e53b6e20e9366726\",\"url\":\"https://api.github.com/users/birryree\",\"html_url\":\"https://github.com/birryree\",\"followers_url\":\"https://api.github.com/users/birryree/followers\",\"following_url\":\"https://api.github.com/users/birryree/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/birryree/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/birryree/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/birryree/subscriptions\",\"organizations_url\":\"https://api.github.com/users/birryree/orgs\",\"repos_url\":\"https://api.github.com/users/birryree/repos\",\"events_url\":\"https://api.github.com/users/birryree/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/birryree/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/birryree/hippo\",\"description\":\"The
         secret sauce of mochify?\",\"fork\":true,\"url\":\"https://api.github.com/repos/birryree/hippo\",\"forks_url\":\"https://api.github.com/repos/birryree/hippo/forks\",\"keys_url\":\"https://api.github.com/repos/birryree/hippo/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/birryree/hippo/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/birryree/hippo/teams\",\"hooks_url\":\"https://api.github.com/repos/birryree/hippo/hooks\",\"issue_events_url\":\"https://api.github.com/repos/birryree/hippo/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/birryree/hippo/events\",\"assignees_url\":\"https://api.github.com/repos/birryree/hippo/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/birryree/hippo/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/birryree/hippo/tags\",\"blobs_url\":\"https://api.github.com/repos/birryree/hippo/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/birryree/hippo/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/birryree/hippo/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/birryree/hippo/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/birryree/hippo/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/birryree/hippo/languages\",\"stargazers_url\":\"https://api.github.com/repos/birryree/hippo/stargazers\",\"contributors_url\":\"https://api.github.com/repos/birryree/hippo/contributors\",\"subscribers_url\":\"https://api.github.com/repos/birryree/hippo/subscribers\",\"subscription_url\":\"https://api.github.com/repos/birryree/hippo/subscription\",\"commits_url\":\"https://api.github.com/repos/birryree/hippo/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/birryree/hippo/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/birryree/hippo/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/birryree/hippo/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/birryree/hippo/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/birryree/hippo/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/birryree/hippo/merges\",\"archive_url\":\"https://api.github.com/repos/birryree/hippo/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/birryree/hippo/downloads\",\"issues_url\":\"https://api.github.com/repos/birryree/hippo/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/birryree/hippo/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/birryree/hippo/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/birryree/hippo/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/birryree/hippo/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/birryree/hippo/releases{/id}\",\"created_at\":\"2013-12-22T21:17:43Z\",\"updated_at\":\"2013-12-22T21:17:45Z\",\"pushed_at\":\"2013-12-19T21:19:38Z\",\"git_url\":\"git://github.com/birryree/hippo.git\",\"ssh_url\":\"git@github.com:birryree/hippo.git\",\"clone_url\":\"https://github.com/birryree/hippo.git\",\"svn_url\":\"https://github.com/birryree/hippo\",\"homepage\":\"www.mochify.com\",\"size\":492,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:55 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:06 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/boresquare/forks
@@ -293,7 +293,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:56 GMT
+      - Thu, 23 Jan 2014 01:21:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -303,9 +303,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4759'
+      - '4995'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -329,14 +329,14 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BE:25F8EF:52E06824
+      - 183C75B1:77BB:1E015C:52E06E82
     body:
       encoding: UTF-8
       string: "[{\"id\":15382222,\"name\":\"boresquare\",\"full_name\":\"alexkuang/boresquare\",\"owner\":{\"login\":\"alexkuang\",\"id\":860492,\"avatar_url\":\"https://gravatar.com/avatar/ec4830ca2cb2c9b76330777a24e41808?d=https%3A%2F%2Fidenticons.github.com%2F2805a60935c25407b548a8bd2517d5e4.png&r=x\",\"gravatar_id\":\"ec4830ca2cb2c9b76330777a24e41808\",\"url\":\"https://api.github.com/users/alexkuang\",\"html_url\":\"https://github.com/alexkuang\",\"followers_url\":\"https://api.github.com/users/alexkuang/followers\",\"following_url\":\"https://api.github.com/users/alexkuang/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/alexkuang/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/alexkuang/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/alexkuang/subscriptions\",\"organizations_url\":\"https://api.github.com/users/alexkuang/orgs\",\"repos_url\":\"https://api.github.com/users/alexkuang/repos\",\"events_url\":\"https://api.github.com/users/alexkuang/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/alexkuang/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/alexkuang/boresquare\",\"description\":\"Where
         were you on a given date?  I bet foursquare knows.\",\"fork\":true,\"url\":\"https://api.github.com/repos/alexkuang/boresquare\",\"forks_url\":\"https://api.github.com/repos/alexkuang/boresquare/forks\",\"keys_url\":\"https://api.github.com/repos/alexkuang/boresquare/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/alexkuang/boresquare/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/alexkuang/boresquare/teams\",\"hooks_url\":\"https://api.github.com/repos/alexkuang/boresquare/hooks\",\"issue_events_url\":\"https://api.github.com/repos/alexkuang/boresquare/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/alexkuang/boresquare/events\",\"assignees_url\":\"https://api.github.com/repos/alexkuang/boresquare/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/alexkuang/boresquare/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/alexkuang/boresquare/tags\",\"blobs_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/alexkuang/boresquare/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/alexkuang/boresquare/languages\",\"stargazers_url\":\"https://api.github.com/repos/alexkuang/boresquare/stargazers\",\"contributors_url\":\"https://api.github.com/repos/alexkuang/boresquare/contributors\",\"subscribers_url\":\"https://api.github.com/repos/alexkuang/boresquare/subscribers\",\"subscription_url\":\"https://api.github.com/repos/alexkuang/boresquare/subscription\",\"commits_url\":\"https://api.github.com/repos/alexkuang/boresquare/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/alexkuang/boresquare/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/alexkuang/boresquare/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/alexkuang/boresquare/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/alexkuang/boresquare/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/alexkuang/boresquare/merges\",\"archive_url\":\"https://api.github.com/repos/alexkuang/boresquare/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/alexkuang/boresquare/downloads\",\"issues_url\":\"https://api.github.com/repos/alexkuang/boresquare/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/alexkuang/boresquare/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/alexkuang/boresquare/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/alexkuang/boresquare/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/alexkuang/boresquare/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/alexkuang/boresquare/releases{/id}\",\"created_at\":\"2013-12-22T21:18:27Z\",\"updated_at\":\"2014-01-22T00:51:27Z\",\"pushed_at\":\"2014-01-22T00:51:25Z\",\"git_url\":\"git://github.com/alexkuang/boresquare.git\",\"ssh_url\":\"git@github.com:alexkuang/boresquare.git\",\"clone_url\":\"https://github.com/alexkuang/boresquare.git\",\"svn_url\":\"https://github.com/alexkuang/boresquare\",\"homepage\":null,\"size\":212,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"Clojure\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":15382206,\"name\":\"boresquare\",\"full_name\":\"birryree/boresquare\",\"owner\":{\"login\":\"birryree\",\"id\":809026,\"avatar_url\":\"https://gravatar.com/avatar/07c434f9f1d28ef4e53b6e20e9366726?d=https%3A%2F%2Fidenticons.github.com%2F722300a7bfea1b13321bbf6816415202.png&r=x\",\"gravatar_id\":\"07c434f9f1d28ef4e53b6e20e9366726\",\"url\":\"https://api.github.com/users/birryree\",\"html_url\":\"https://github.com/birryree\",\"followers_url\":\"https://api.github.com/users/birryree/followers\",\"following_url\":\"https://api.github.com/users/birryree/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/birryree/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/birryree/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/birryree/subscriptions\",\"organizations_url\":\"https://api.github.com/users/birryree/orgs\",\"repos_url\":\"https://api.github.com/users/birryree/repos\",\"events_url\":\"https://api.github.com/users/birryree/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/birryree/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/birryree/boresquare\",\"description\":\"Where
         were you on a given date?  I bet foursquare knows.\",\"fork\":true,\"url\":\"https://api.github.com/repos/birryree/boresquare\",\"forks_url\":\"https://api.github.com/repos/birryree/boresquare/forks\",\"keys_url\":\"https://api.github.com/repos/birryree/boresquare/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/birryree/boresquare/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/birryree/boresquare/teams\",\"hooks_url\":\"https://api.github.com/repos/birryree/boresquare/hooks\",\"issue_events_url\":\"https://api.github.com/repos/birryree/boresquare/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/birryree/boresquare/events\",\"assignees_url\":\"https://api.github.com/repos/birryree/boresquare/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/birryree/boresquare/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/birryree/boresquare/tags\",\"blobs_url\":\"https://api.github.com/repos/birryree/boresquare/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/birryree/boresquare/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/birryree/boresquare/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/birryree/boresquare/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/birryree/boresquare/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/birryree/boresquare/languages\",\"stargazers_url\":\"https://api.github.com/repos/birryree/boresquare/stargazers\",\"contributors_url\":\"https://api.github.com/repos/birryree/boresquare/contributors\",\"subscribers_url\":\"https://api.github.com/repos/birryree/boresquare/subscribers\",\"subscription_url\":\"https://api.github.com/repos/birryree/boresquare/subscription\",\"commits_url\":\"https://api.github.com/repos/birryree/boresquare/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/birryree/boresquare/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/birryree/boresquare/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/birryree/boresquare/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/birryree/boresquare/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/birryree/boresquare/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/birryree/boresquare/merges\",\"archive_url\":\"https://api.github.com/repos/birryree/boresquare/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/birryree/boresquare/downloads\",\"issues_url\":\"https://api.github.com/repos/birryree/boresquare/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/birryree/boresquare/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/birryree/boresquare/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/birryree/boresquare/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/birryree/boresquare/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/birryree/boresquare/releases{/id}\",\"created_at\":\"2013-12-22T21:17:19Z\",\"updated_at\":\"2014-01-21T15:24:10Z\",\"pushed_at\":\"2014-01-21T15:24:10Z\",\"git_url\":\"git://github.com/birryree/boresquare.git\",\"ssh_url\":\"git@github.com:birryree/boresquare.git\",\"clone_url\":\"https://github.com/birryree/boresquare.git\",\"svn_url\":\"https://github.com/birryree/boresquare\",\"homepage\":null,\"size\":112,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"Clojure\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:56 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:06 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/ismochifydoingwork.info/forks
@@ -360,7 +360,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:56 GMT
+      - Thu, 23 Jan 2014 01:21:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -370,9 +370,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4758'
+      - '4994'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -396,14 +396,14 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:388F52:52E06824
+      - 183C75B1:77BA:10A1BA:52E06E82
     body:
       encoding: UTF-8
       string: "[{\"id\":16127126,\"name\":\"ismochifydoingwork.info\",\"full_name\":\"alexkuang/ismochifydoingwork.info\",\"owner\":{\"login\":\"alexkuang\",\"id\":860492,\"avatar_url\":\"https://gravatar.com/avatar/ec4830ca2cb2c9b76330777a24e41808?d=https%3A%2F%2Fidenticons.github.com%2F2805a60935c25407b548a8bd2517d5e4.png&r=x\",\"gravatar_id\":\"ec4830ca2cb2c9b76330777a24e41808\",\"url\":\"https://api.github.com/users/alexkuang\",\"html_url\":\"https://github.com/alexkuang\",\"followers_url\":\"https://api.github.com/users/alexkuang/followers\",\"following_url\":\"https://api.github.com/users/alexkuang/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/alexkuang/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/alexkuang/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/alexkuang/subscriptions\",\"organizations_url\":\"https://api.github.com/users/alexkuang/orgs\",\"repos_url\":\"https://api.github.com/users/alexkuang/repos\",\"events_url\":\"https://api.github.com/users/alexkuang/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/alexkuang/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/alexkuang/ismochifydoingwork.info\",\"description\":\"The
         source powering the domain ismochifydoingwork.info\",\"fork\":true,\"url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info\",\"forks_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/forks\",\"keys_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/teams\",\"hooks_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/hooks\",\"issue_events_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/events\",\"assignees_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/tags\",\"blobs_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/languages\",\"stargazers_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/stargazers\",\"contributors_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/contributors\",\"subscribers_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/subscribers\",\"subscription_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/subscription\",\"commits_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/merges\",\"archive_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/downloads\",\"issues_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/alexkuang/ismochifydoingwork.info/releases{/id}\",\"created_at\":\"2014-01-22T03:10:04Z\",\"updated_at\":\"2014-01-22T03:18:03Z\",\"pushed_at\":\"2014-01-22T03:18:02Z\",\"git_url\":\"git://github.com/alexkuang/ismochifydoingwork.info.git\",\"ssh_url\":\"git@github.com:alexkuang/ismochifydoingwork.info.git\",\"clone_url\":\"https://github.com/alexkuang/ismochifydoingwork.info.git\",\"svn_url\":\"https://github.com/alexkuang/ismochifydoingwork.info\",\"homepage\":null,\"size\":119,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"Ruby\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":15382315,\"name\":\"ismochifydoingwork.info\",\"full_name\":\"birryree/ismochifydoingwork.info\",\"owner\":{\"login\":\"birryree\",\"id\":809026,\"avatar_url\":\"https://gravatar.com/avatar/07c434f9f1d28ef4e53b6e20e9366726?d=https%3A%2F%2Fidenticons.github.com%2F722300a7bfea1b13321bbf6816415202.png&r=x\",\"gravatar_id\":\"07c434f9f1d28ef4e53b6e20e9366726\",\"url\":\"https://api.github.com/users/birryree\",\"html_url\":\"https://github.com/birryree\",\"followers_url\":\"https://api.github.com/users/birryree/followers\",\"following_url\":\"https://api.github.com/users/birryree/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/birryree/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/birryree/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/birryree/subscriptions\",\"organizations_url\":\"https://api.github.com/users/birryree/orgs\",\"repos_url\":\"https://api.github.com/users/birryree/repos\",\"events_url\":\"https://api.github.com/users/birryree/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/birryree/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/birryree/ismochifydoingwork.info\",\"description\":\"The
         source powering the domain ismochifydoingwork.info\",\"fork\":true,\"url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info\",\"forks_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/forks\",\"keys_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/teams\",\"hooks_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/hooks\",\"issue_events_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/events\",\"assignees_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/tags\",\"blobs_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/languages\",\"stargazers_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/stargazers\",\"contributors_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/contributors\",\"subscribers_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/subscribers\",\"subscription_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/subscription\",\"commits_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/merges\",\"archive_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/downloads\",\"issues_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/birryree/ismochifydoingwork.info/releases{/id}\",\"created_at\":\"2013-12-22T21:27:16Z\",\"updated_at\":\"2013-12-22T21:27:16Z\",\"pushed_at\":\"2013-12-22T21:19:03Z\",\"git_url\":\"git://github.com/birryree/ismochifydoingwork.info.git\",\"ssh_url\":\"git@github.com:birryree/ismochifydoingwork.info.git\",\"clone_url\":\"https://github.com/birryree/ismochifydoingwork.info.git\",\"svn_url\":\"https://github.com/birryree/ismochifydoingwork.info\",\"homepage\":null,\"size\":60,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:56 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:07 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/compojure/forks
@@ -427,7 +427,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:58 GMT
+      - Thu, 23 Jan 2014 01:21:07 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -435,9 +435,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4757'
+      - '4993'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -463,12 +463,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BC:28CC9B:52E06825
+      - 183C75B1:77BB:1E01DD:52E06E83
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:59 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:07 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/hiroba/forks
@@ -492,7 +492,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:59 GMT
+      - Thu, 23 Jan 2014 01:21:07 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -500,9 +500,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4756'
+      - '4992'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -528,12 +528,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:3892B2:52E06827
+      - 183C75B1:77BB:1E020A:52E06E83
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:59 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:07 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/dominion/forks
@@ -557,7 +557,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:59 GMT
+      - Thu, 23 Jan 2014 01:21:07 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -565,9 +565,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4755'
+      - '4991'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -593,12 +593,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BF:360B77:52E06827
+      - 183C75B1:77BC:2F297C:52E06E83
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:59 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:07 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/mochi-ideas/forks
@@ -622,7 +622,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:53:59 GMT
+      - Thu, 23 Jan 2014 01:21:07 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -630,9 +630,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4754'
+      - '4990'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -658,12 +658,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BB:1A3944:52E06827
+      - 183C75B1:77BA:10A226:52E06E83
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:53:59 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:08 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/renderly/stats/participation
@@ -687,7 +687,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:00 GMT
+      - Thu, 23 Jan 2014 01:21:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -697,9 +697,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4753'
+      - '4989'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -723,12 +723,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BB:1A3961:52E06827
+      - 183C75B1:77BA:10A234:52E06E84
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,34,9,3,6,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:00 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:08 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/mochify.github.io/stats/participation
@@ -752,7 +752,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:00 GMT
+      - Thu, 23 Jan 2014 01:21:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -762,9 +762,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4752'
+      - '4988'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -788,12 +788,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:389436:52E06828
+      - 183C75B1:77BE:2BC661:52E06E84
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:00 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:09 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/hippo/stats/participation
@@ -817,7 +817,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:00 GMT
+      - Thu, 23 Jan 2014 01:21:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -827,9 +827,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4751'
+      - '4987'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -853,12 +853,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:389493:52E06828
+      - 183C75B1:77BB:1E0413:52E06E85
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:00 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:10 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/boresquare/stats/participation
@@ -882,7 +882,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:00 GMT
+      - Thu, 23 Jan 2014 01:21:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -892,9 +892,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4750'
+      - '4986'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -918,12 +918,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:3894DB:52E06828
+      - 183C75B1:77BC:2F2CA9:52E06E86
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:00 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:10 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/ismochifydoingwork.info/stats/participation
@@ -947,7 +947,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:02 GMT
+      - Thu, 23 Jan 2014 01:21:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -957,9 +957,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4749'
+      - '4985'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -983,12 +983,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BE:25FD7B:52E06829
+      - 183C75B1:77BE:2BC8BB:52E06E86
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:02 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:10 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/compojure/stats/participation
@@ -1012,7 +1012,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:02 GMT
+      - Thu, 23 Jan 2014 01:21:12 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1022,9 +1022,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4748'
+      - '4984'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1048,12 +1048,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BF:36103C:52E0682A
+      - 183C75B1:77BC:2F2E28:52E06E87
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:02 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:12 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/hiroba/stats/participation
@@ -1077,7 +1077,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:03 GMT
+      - Thu, 23 Jan 2014 01:21:12 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1087,9 +1087,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4747'
+      - '4983'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1113,12 +1113,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BE:25FE49:52E0682A
+      - 183C75B1:77BD:41A82A:52E06E88
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:03 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:12 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/dominion/stats/participation
@@ -1142,7 +1142,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:03 GMT
+      - Thu, 23 Jan 2014 01:21:12 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1152,9 +1152,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4746'
+      - '4982'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1178,12 +1178,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BE:25FE87:52E0682B
+      - 183C75B1:77BE:2BCAF6:52E06E88
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:03 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:12 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/mochify/mochi-ideas/stats/participation
@@ -1207,7 +1207,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:03 GMT
+      - Thu, 23 Jan 2014 01:21:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1217,9 +1217,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4745'
+      - '4981'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1243,12 +1243,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BE:25FEBE:52E0682B
+      - 183C75B1:77BE:2BCB3C:52E06E89
     body:
       encoding: UTF-8
       string: "{\"all\":[],\"owner\":[]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:03 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:13 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/renderly/stats/participation
@@ -1272,7 +1272,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:03 GMT
+      - Thu, 23 Jan 2014 01:21:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1282,9 +1282,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4744'
+      - '4980'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1308,12 +1308,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BC:28D160:52E0682B
+      - 183C75B1:77BD:41A92B:52E06E89
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,34,7,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,34,7,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:03 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:13 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/hippo/stats/participation
@@ -1337,7 +1337,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:06 GMT
+      - Thu, 23 Jan 2014 01:21:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1347,9 +1347,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4743'
+      - '4979'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1373,12 +1373,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:389DFA:52E0682C
+      - 183C75B1:77BD:41A99E:52E06E89
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:07 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:13 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/alexkuang/boresquare/stats/participation
@@ -1402,7 +1402,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:08 GMT
+      - Thu, 23 Jan 2014 01:21:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1412,9 +1412,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4742'
+      - '4978'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1438,12 +1438,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BE:260274:52E0682F
+      - 183C75B1:77BB:1E06B3:52E06E89
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,7,8],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,7,8]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:08 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:14 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/boresquare/stats/participation
@@ -1467,7 +1467,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:09 GMT
+      - Thu, 23 Jan 2014 01:21:14 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1477,9 +1477,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4741'
+      - '4977'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1503,12 +1503,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BC:28D64E:52E06830
+      - 183C75B1:77BD:41AA74:52E06E8A
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:09 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:14 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/alexkuang/ismochifydoingwork.info/stats/participation
@@ -1532,7 +1532,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:09 GMT
+      - Thu, 23 Jan 2014 01:21:14 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1542,9 +1542,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4740'
+      - '4976'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1568,12 +1568,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:38A298:52E06831
+      - 183C75B1:77BC:2F30F3:52E06E8A
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:09 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:14 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/ismochifydoingwork.info/stats/participation
@@ -1597,7 +1597,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Jan 2014 00:54:10 GMT
+      - Thu, 23 Jan 2014 01:21:14 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1607,9 +1607,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4739'
+      - '4975'
       X-Ratelimit-Reset:
-      - '1390438988'
+      - '1390443665'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
@@ -1633,10 +1633,10 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:77BD:38A2F3:52E06831
+      - 183C75B1:77BB:1E0730:52E06E8A
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0]}"
     http_version: 
-  recorded_at: Thu, 23 Jan 2014 00:54:10 GMT
+  recorded_at: Thu, 23 Jan 2014 01:21:15 GMT
 recorded_with: VCR 2.8.0
