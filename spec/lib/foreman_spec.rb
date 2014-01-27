@@ -1,8 +1,6 @@
 require_relative '../../lib/foreman'
 require_relative '../../lib/github_info'
 
-require 'timecop'
-
 describe Foreman do
   it "returns 0 when there has been no activity on github" do
     GithubInfo.stub(:all_repo_commits) { Array.new(52, 0) }
