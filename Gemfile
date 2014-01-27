@@ -30,7 +30,10 @@ gem 'jbuilder', '~> 1.2'
 # Github api wrapper and caching
 gem 'octokit', '~> 2.0'
 gem 'faraday-http-cache'
-gem "redis", "~> 3.0.1"
+gem 'redis', '~> 3.0.1'
+
+# front-end-y web presentation stuff
+gem "twitter-bootstrap-rails"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
