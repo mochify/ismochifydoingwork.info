@@ -12,7 +12,6 @@ class OctoCache
       "octocache.repo:" + date + ":commit"
     end
 
-
     def save_repo_commits(date, commits)
       @redis.set construct_repo_key(date), commits.to_json
     end

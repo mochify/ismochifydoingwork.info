@@ -1,5 +1,6 @@
 require 'octokit'
 require 'faraday/http_cache'
+require 'date'
 
 class GithubInfo
   Octokit.configure do |c|
@@ -30,6 +31,19 @@ class GithubInfo
     end
 
     def all_repo_commits
+      today = Date.today()
+
+      begin
+        # Try to fish a score out of the cache first.  We should be comfortable with day-based cache.
+        OctoCache.get_repo_commits(today.to_s)
+      rescue OctoCache::NotFound
+        commits = all_repo_commits!
+        OctoCache.save_repo_commits(today.to_s, commits)
+        commits
+      end
+    end
+
+    def all_repo_commits!
       repositories = all_repositories
 
       repo_weekly_commits = repositories.map { |repo|
