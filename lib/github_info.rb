@@ -14,9 +14,14 @@ class GithubInfo
 
   Octokit.middleware = stack
 
+  def self.root_repositories
+    repositories = Octokit.organization_repositories(ENV.fetch("MOCHIFYDOINGWORK_ORGNAME"))
+    repositories.select { |repo| !repo.fork }
+  end
+
 
   def self.all_repositories
-    repositories = (Octokit.organization_repositories(ENV.fetch("MOCHIFYDOINGWORK_ORGNAME")))
+    repositories = self.root_repositories
     forks = repositories.map { |repo|
       Octokit.forks(repo.full_name)
     }.flatten
