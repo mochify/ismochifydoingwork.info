@@ -1,11 +1,8 @@
-require 'redis'
-require 'json'
-
 class OctoCache
   class NotFound < RuntimeError
   end
 
-  @redis = Redis.new(:url => ENV.fetch("MOCHIFYDOINGWORK_REDISURL"))
+  @storage = ActiveSupport::Cache::MemoryStore.new
 
   class << self
     def construct_repo_key(date)
@@ -13,17 +10,17 @@ class OctoCache
     end
 
     def save_repo_commits(date, commits)
-      @redis.set construct_repo_key(date), commits.to_json
+      @storage.write(construct_repo_key(date), commits)
     end
 
     def get_repo_commits(date)
-      redis_result = @redis.get construct_repo_key(date)
+      stored_result = @storage.read construct_repo_key(date)
 
-      if redis_result.nil?
+      if stored_result.nil?
         raise NotFound
       end
 
-      JSON.parse(redis_result)
+      stored_result
     end
 
     private :construct_repo_key
