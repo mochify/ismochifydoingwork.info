@@ -16,4 +16,9 @@ describe Foreman do
     GithubInfo.stub(:all_repo_commits) { Array.new(51, 0) + Array.new(1, 1) }
     Foreman.org_score.should == 12.5
   end
+
+  it "knows the recent github stats for the team" do
+    GithubInfo.stub(:all_repo_commits) { Array.new(48, 0) + Array.new(4, 1) }
+    Foreman.recent_github_activity.should == [0, 0, 0, 0, 1, 1, 1, 1]
+  end
 end
