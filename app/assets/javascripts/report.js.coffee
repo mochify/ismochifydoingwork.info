@@ -18,15 +18,16 @@ recentCommitChart = (selector, data) ->
       .enter().append("g")
     .attr("transform", (d, i) -> "translate(" + i * barWidth + ",0)");
 
+  # The +/-i offsets seem a bit hacky, probably a better way to do this.
   bars.append("rect")
     .attr("y", (d) -> yScale(d))
     .attr("width", (d) -> barWidth - 2)
     .attr("height", (d) -> chartHeight - yScale(d));
 
   bars.append("text")
-    .attr("x", (d) -> barWidth / 2)
-    .attr("y", (d) -> yScale(d) + 3)
-    .attr("dy", ".75em").text((d) -> d);
+    .attr("x", (d) -> (barWidth / 2) + 4)
+    .attr("y", (d) -> yScale(d))
+    .attr("dy", "1em").text((d) -> d);
 
 MochiReport.recentCommitChart = recentCommitChart;
 
