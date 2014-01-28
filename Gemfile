@@ -33,7 +33,8 @@ gem 'faraday-http-cache'
 # gem 'redis', '~> 3.0.1'
 
 # front-end-y web presentation stuff
-gem "twitter-bootstrap-rails" # Only on bs 2.3.2, but convenient so live with it for now.
+gem 'twitter-bootstrap-rails' # Only on bs 2.3.2, but convenient so live with it for now.
+gem 'd3_rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

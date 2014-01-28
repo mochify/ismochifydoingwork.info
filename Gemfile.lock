@@ -55,6 +55,8 @@ GEM
       cucumber (>= 1.2.0)
       nokogiri (>= 1.5.0)
       rails (>= 3.0.0)
+    d3_rails (3.4.1)
+      railties (>= 3.1.0)
     database_cleaner (1.2.0)
     diff-lcs (1.2.5)
     erubis (2.7.0)
@@ -180,6 +182,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   cucumber-rails
+  d3_rails
   database_cleaner
   faraday-http-cache
   jbuilder (~> 1.2)
