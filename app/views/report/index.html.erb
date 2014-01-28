@@ -1,6 +1,26 @@
 <div class="container">
-    <h3>Is mochify doing work?</h3>
+    <div class="page-header">
+        <h2>Is mochify doing work?</h2>
+    </div>
     <div class="hero-unit">
         <h1>Productivity is at <%= @productivity_score %>%</h1>
     </div>
+    <h3>Recent Commits</h3>
+    <svg id="commit-chart"></svg>
 </div>
+<style>
+    #commit-chart rect {
+        fill: #bbb;
+    }
+    #commit-chart text {
+        fill: white;
+        text-anchor: end;
+    }
+</style>
+<script>
+    jQuery(function($) {
+        $.get("/reports/github/recentcommits", function(result) {
+            MochiReport.recentCommitChart("#commit-chart", result);
+        });
+    });
+</script>
