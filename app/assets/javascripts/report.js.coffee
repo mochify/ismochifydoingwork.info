@@ -4,14 +4,14 @@
 
 MochiReport = {};
 
-drawCommitCharts = (data) -> 
+recentCommitChart = (selector, data) -> 
   chartWidth = 900;
   chartHeight = 500;
 
   barWidth = chartWidth / data.length;
   yScale = d3.scale.linear().range([chartHeight, 0]).domain([0, d3.max(data)]);
 
-  chart = d3.select("#commit-chart").attr("width", chartWidth).attr("height", chartHeight);
+  chart = d3.select(selector).attr("width", chartWidth).attr("height", chartHeight);
 
   bars = chart.selectAll("g")
     .data(data)
@@ -28,7 +28,7 @@ drawCommitCharts = (data) ->
     .attr("y", (d) -> yScale(d) + 3)
     .attr("dy", ".75em").text((d) -> d);
 
-MochiReport.drawCommitCharts = drawCommitCharts;
+MochiReport.recentCommitChart = recentCommitChart;
 
 # Other libs seem to have a lot of stuff with typeof in case it's used in a module context vs in a browser or whatnot,
 # but not necessary for now I guess.  Just expose to the global namespace.
