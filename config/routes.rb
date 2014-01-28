@@ -5,6 +5,12 @@ Ismochifydoingwork::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'report#index'
 
+  namespace :reports do
+    namespace :github do
+      resources :recentcommits, only: [:index]
+    end
+  end
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
