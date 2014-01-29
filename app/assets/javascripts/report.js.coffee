@@ -4,6 +4,13 @@
 
 MochiReport = {};
 
+
+toggleLoadIndicator = (selector) ->
+  loader = selector + " .loader";
+  content = selector + " .loaded-content";
+  jQuery(loader).hide();
+  jQuery(content).show();
+
 recentCommitChart = (selector, data) -> 
   chartWidth = 900;
   chartHeight = 500;
@@ -29,7 +36,9 @@ recentCommitChart = (selector, data) ->
     .attr("y", (d) -> yScale(d))
     .attr("dy", "1em").text((d) -> d);
 
+
 MochiReport.recentCommitChart = recentCommitChart;
+MochiReport.toggleLoadIndicator = toggleLoadIndicator;
 
 # Other libs seem to have a lot of stuff with typeof in case it's used in a module context vs in a browser or whatnot,
 # but not necessary for now I guess.  Just expose to the global namespace.

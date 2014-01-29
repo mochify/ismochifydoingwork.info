@@ -9,6 +9,8 @@ Ismochifydoingwork::Application.routes.draw do
     namespace :github do
       resources :recentcommits, only: [:index]
     end
+
+    resources :productivityscore, only: [:index]
   end
 
   # Example of regular route:
