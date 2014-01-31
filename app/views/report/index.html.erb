@@ -2,25 +2,27 @@
     <div class="page-header">
         <h2>Is mochify doing work?</h2>
     </div>
-    <div class="hero-unit">
-        <h1>Productivity is at <%= @productivity_score %>%</h1>
+    <div id="summary">
+        <div class="loader"><div class="spinner"></div> <br><em>(loading...)</em></div>
+        <div class="hero-unit loaded-content" style="display:none">
+            <h1>Productivity is at <span id="productivity-score"></span>%</h1>
+        </div>
     </div>
-    <h3>Recent Commits</h3>
-    <svg id="commit-chart"></svg>
+    <h3>Recent Github Commits</h3>
+    <div id="recent-commits">
+        <div class="loader"><div class="spinner"></div> <br><em>(loading...)</em></div>
+        <svg id="commit-chart" class="loaded-content" style="display:none"></svg>
+    </div>
 </div>
-<style>
-    #commit-chart rect {
-        fill: #1f2b2f;
-    }
-    #commit-chart text {
-        fill: white;
-        text-anchor: end;
-    }
-</style>
 <script>
     jQuery(function($) {
+        $.get("/reports/productivityscore", function(result) {
+            $("#productivity-score").html(result.score);
+            MochiReport.toggleLoadIndicator("#summary");
+        });
         $.get("/reports/github/recentcommits", function(result) {
             MochiReport.recentCommitChart("#commit-chart", result);
+            MochiReport.toggleLoadIndicator("#recent-commits");
         });
     });
 </script>

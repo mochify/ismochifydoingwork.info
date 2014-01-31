@@ -1,3 +1,52 @@
 // Place all the styles related to the report controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#commit-chart rect {
+    fill: #1f2b2f;
+}
+#commit-chart rect:hover {
+    fill: #2f3b4f;
+}
+#commit-chart .bar-label {
+    fill: white;
+    text-anchor: end;
+}
+#commit-chart .axis path,
+#commit-chart .axis line {
+    fill: none;
+    stroke: #000;
+}
+#commit-chart .axis.x path {
+    display: none;
+}
+
+.spinner {
+    display: inline-block;
+    margin: .5em;
+    border-width: 30px;
+    border-radius: 50%;
+    -webkit-animation: spin 1s linear infinite;
+       -moz-animation: spin 1s linear infinite;
+         -o-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+
+    border-style: solid;
+    border-color: #444 transparent;
+}
+
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+    100% { -moz-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+    100% {  transform: rotate(359deg); }
+}

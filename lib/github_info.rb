@@ -47,8 +47,22 @@ class GithubInfo
       repositories = all_repositories
 
       repo_weekly_commits = repositories.map { |repo|
+        octokit_response = Octokit.participation_stats(repo.full_name)
+        retries = 0
+
+        # for expensive operations like participation stats, sometimes github returns a 202 and tells us to come back
+        # later, in which case the response is nil.  Apparently octokit doesn't handle this automatically (it does die
+        # on non-2xx and 3xx codes, but not on 202), so we have to; however, I'm only willing to wait a few seconds
+        # before moving on.
+        while (octokit_response.nil? && retries < 7) do
+          octokit_response = Octokit.participation_stats(repo.full_name)
+          retries += 1
+          sleep(1)
+        end
+        octokit_response ||= {:all => []}
+
         participation = Octokit.participation_stats(repo.full_name).all
-        # If the repo is empty, the participation array comes back as []
+        # If the repo is empty, the participation array comes back as [], so fill it with 0s
         participation = participation.empty? ? [0] * 52 : participation
       }
 
