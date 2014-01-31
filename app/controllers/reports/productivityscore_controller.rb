@@ -1,5 +1,6 @@
 class Reports::ProductivityscoreController < ApplicationController
   def index
-    render :json => {:score => Foreman.org_score}
+    score = Foreman.org_score
+    render :json => {:score => score, :comment => Foreman.pithy_score_comment(score)}
   end
 end

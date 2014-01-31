@@ -21,4 +21,12 @@ describe Foreman do
     GithubInfo.stub(:all_repo_commits) { Array.new(48, 0) + Array.new(4, 1) }
     Foreman.recent_github_activity.should == [0, 0, 0, 0, 1, 1, 1, 1]
   end
+
+  it "has a pithy comment depending on the productivity" do
+    # Not sure about the format of this test; is there some other, more useful/less brittle property to assert on?
+    Foreman.pithy_score_comment(0).should == "Not even slightly."
+    Foreman.pithy_score_comment(30).should == "Just barely."
+    Foreman.pithy_score_comment(80).should == "Surprisingly, yes."
+    Foreman.pithy_score_comment(100).should == "Yes, but they're probably lying."
+  end
 end
