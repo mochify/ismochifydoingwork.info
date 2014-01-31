@@ -7,14 +7,14 @@ describe Foreman do
     Foreman.org_score.should == 0
   end
 
-  it "returns 100 when there has been activity on github every day" do
-    GithubInfo.stub(:all_repo_commits) { Array.new(52, 1) }
+  it "returns 100 when there has been sufficient activity on github every day" do
+    GithubInfo.stub(:all_repo_commits) { Array.new(52, 50) }
     Foreman.org_score.should == 100
   end
 
   it "returns a positive number when there is any activity on github" do
     GithubInfo.stub(:all_repo_commits) { Array.new(51, 0) + Array.new(1, 1) }
-    Foreman.org_score.should == 12.5
+    Foreman.org_score.should > 0
   end
 
   it "knows the recent github stats for the team" do
