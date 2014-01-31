@@ -76,7 +76,7 @@ recentCommitChart = (selector, data) ->
 
   bars.append("text")
     .attr("class", "bar-label")
-    .attr("x", (d) -> (barWidth / 2) + 4)
+    .attr("x", (d) -> (barWidth / 2))
     .attr("y", (d) -> d3.min([yScale(d), chartHeight - 15]))
     .attr("dy", "1em").text((d) -> d);
 
