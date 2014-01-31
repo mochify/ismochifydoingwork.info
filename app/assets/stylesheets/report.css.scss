@@ -5,6 +5,9 @@
 #commit-chart rect {
     fill: #1f2b2f;
 }
+#commit-chart rect:hover {
+    fill: #2f3b4f;
+}
 #commit-chart text {
     fill: white;
     text-anchor: end;
