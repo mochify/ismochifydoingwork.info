@@ -50,3 +50,9 @@
 @keyframes spin {
     100% {  transform: rotate(359deg); }
 }
+
+.loader:after {
+    content: "(loading from github...)";
+    font-style: italic;
+    display: block;
+}
