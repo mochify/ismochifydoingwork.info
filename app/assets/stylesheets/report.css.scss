@@ -8,9 +8,17 @@
 #commit-chart rect:hover {
     fill: #2f3b4f;
 }
-#commit-chart text {
+#commit-chart .bar-label {
     fill: white;
     text-anchor: end;
+}
+#commit-chart .axis path,
+#commit-chart .axis line {
+    fill: none;
+    stroke: #000;
+}
+#commit-chart .axis.x path {
+    display: none;
 }
 
 .spinner {
