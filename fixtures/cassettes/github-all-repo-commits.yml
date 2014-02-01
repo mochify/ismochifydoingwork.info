@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:36 GMT
+      - Sat, 01 Feb 2014 02:44:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,7 +33,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4874'
+      - '4823'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -59,7 +59,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C8E75:52EC5D3C
+      - 183C75B1:55BB:3C6A8BC:52EC5F8A
     body:
       encoding: UTF-8
       string: "[{\"id\":15229879,\"name\":\"renderly\",\"full_name\":\"<GITHUB ORG>/renderly\",\"owner\":{\"login\":\"<GITHUB
@@ -750,7 +750,7 @@ http_interactions:
         ORG>/renderly-next.git\",\"ssh_url\":\"git@github.com:<GITHUB ORG>/renderly-next.git\",\"clone_url\":\"https://github.com/<GITHUB
         ORG>/renderly-next.git\",\"svn_url\":\"https://github.com/<GITHUB ORG>/renderly-next\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}}]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:36 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:26 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/renderly/forks
@@ -774,7 +774,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:36 GMT
+      - Sat, 01 Feb 2014 02:44:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -784,7 +784,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4873'
+      - '4822'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -810,13 +810,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:558F:248DA47:52EC5D3C
+      - 183C75B1:55B7:1F5F93E:52EC5F8A
     body:
       encoding: UTF-8
       string: "[{\"id\":15518136,\"name\":\"renderly\",\"full_name\":\"birryree/renderly\",\"owner\":{\"login\":\"birryree\",\"id\":809026,\"avatar_url\":\"https://gravatar.com/avatar/07c434f9f1d28ef4e53b6e20e9366726?d=https%3A%2F%2Fidenticons.github.com%2F722300a7bfea1b13321bbf6816415202.png&r=x\",\"gravatar_id\":\"07c434f9f1d28ef4e53b6e20e9366726\",\"url\":\"https://api.github.com/users/birryree\",\"html_url\":\"https://github.com/birryree\",\"followers_url\":\"https://api.github.com/users/birryree/followers\",\"following_url\":\"https://api.github.com/users/birryree/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/birryree/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/birryree/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/birryree/subscriptions\",\"organizations_url\":\"https://api.github.com/users/birryree/orgs\",\"repos_url\":\"https://api.github.com/users/birryree/repos\",\"events_url\":\"https://api.github.com/users/birryree/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/birryree/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/birryree/renderly\",\"description\":\"A
         non-proprietary version of my Rendering automation library/toolkit.\",\"fork\":true,\"url\":\"https://api.github.com/repos/birryree/renderly\",\"forks_url\":\"https://api.github.com/repos/birryree/renderly/forks\",\"keys_url\":\"https://api.github.com/repos/birryree/renderly/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/birryree/renderly/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/birryree/renderly/teams\",\"hooks_url\":\"https://api.github.com/repos/birryree/renderly/hooks\",\"issue_events_url\":\"https://api.github.com/repos/birryree/renderly/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/birryree/renderly/events\",\"assignees_url\":\"https://api.github.com/repos/birryree/renderly/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/birryree/renderly/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/birryree/renderly/tags\",\"blobs_url\":\"https://api.github.com/repos/birryree/renderly/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/birryree/renderly/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/birryree/renderly/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/birryree/renderly/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/birryree/renderly/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/birryree/renderly/languages\",\"stargazers_url\":\"https://api.github.com/repos/birryree/renderly/stargazers\",\"contributors_url\":\"https://api.github.com/repos/birryree/renderly/contributors\",\"subscribers_url\":\"https://api.github.com/repos/birryree/renderly/subscribers\",\"subscription_url\":\"https://api.github.com/repos/birryree/renderly/subscription\",\"commits_url\":\"https://api.github.com/repos/birryree/renderly/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/birryree/renderly/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/birryree/renderly/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/birryree/renderly/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/birryree/renderly/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/birryree/renderly/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/birryree/renderly/merges\",\"archive_url\":\"https://api.github.com/repos/birryree/renderly/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/birryree/renderly/downloads\",\"issues_url\":\"https://api.github.com/repos/birryree/renderly/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/birryree/renderly/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/birryree/renderly/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/birryree/renderly/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/birryree/renderly/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/birryree/renderly/releases{/id}\",\"created_at\":\"2013-12-30T01:40:21Z\",\"updated_at\":\"2014-01-22T20:05:28Z\",\"pushed_at\":\"2014-01-22T20:05:27Z\",\"git_url\":\"git://github.com/birryree/renderly.git\",\"ssh_url\":\"git@github.com:birryree/renderly.git\",\"clone_url\":\"https://github.com/birryree/renderly.git\",\"svn_url\":\"https://github.com/birryree/renderly\",\"homepage\":null,\"size\":1293,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"C#\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:36 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:26 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/hippo/forks
@@ -840,7 +840,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:37 GMT
+      - Sat, 01 Feb 2014 02:44:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -850,7 +850,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4872'
+      - '4821'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -876,14 +876,14 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C288:52EC5D3D
+      - 183C75B1:55B7:1F5F9A8:52EC5F8B
     body:
       encoding: UTF-8
       string: "[{\"id\":15382215,\"name\":\"hippo\",\"full_name\":\"birryree/hippo\",\"owner\":{\"login\":\"birryree\",\"id\":809026,\"avatar_url\":\"https://gravatar.com/avatar/07c434f9f1d28ef4e53b6e20e9366726?d=https%3A%2F%2Fidenticons.github.com%2F722300a7bfea1b13321bbf6816415202.png&r=x\",\"gravatar_id\":\"07c434f9f1d28ef4e53b6e20e9366726\",\"url\":\"https://api.github.com/users/birryree\",\"html_url\":\"https://github.com/birryree\",\"followers_url\":\"https://api.github.com/users/birryree/followers\",\"following_url\":\"https://api.github.com/users/birryree/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/birryree/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/birryree/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/birryree/subscriptions\",\"organizations_url\":\"https://api.github.com/users/birryree/orgs\",\"repos_url\":\"https://api.github.com/users/birryree/repos\",\"events_url\":\"https://api.github.com/users/birryree/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/birryree/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/birryree/hippo\",\"description\":\"The
         secret sauce of <GITHUB ORG>?\",\"fork\":true,\"url\":\"https://api.github.com/repos/birryree/hippo\",\"forks_url\":\"https://api.github.com/repos/birryree/hippo/forks\",\"keys_url\":\"https://api.github.com/repos/birryree/hippo/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/birryree/hippo/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/birryree/hippo/teams\",\"hooks_url\":\"https://api.github.com/repos/birryree/hippo/hooks\",\"issue_events_url\":\"https://api.github.com/repos/birryree/hippo/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/birryree/hippo/events\",\"assignees_url\":\"https://api.github.com/repos/birryree/hippo/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/birryree/hippo/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/birryree/hippo/tags\",\"blobs_url\":\"https://api.github.com/repos/birryree/hippo/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/birryree/hippo/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/birryree/hippo/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/birryree/hippo/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/birryree/hippo/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/birryree/hippo/languages\",\"stargazers_url\":\"https://api.github.com/repos/birryree/hippo/stargazers\",\"contributors_url\":\"https://api.github.com/repos/birryree/hippo/contributors\",\"subscribers_url\":\"https://api.github.com/repos/birryree/hippo/subscribers\",\"subscription_url\":\"https://api.github.com/repos/birryree/hippo/subscription\",\"commits_url\":\"https://api.github.com/repos/birryree/hippo/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/birryree/hippo/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/birryree/hippo/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/birryree/hippo/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/birryree/hippo/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/birryree/hippo/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/birryree/hippo/merges\",\"archive_url\":\"https://api.github.com/repos/birryree/hippo/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/birryree/hippo/downloads\",\"issues_url\":\"https://api.github.com/repos/birryree/hippo/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/birryree/hippo/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/birryree/hippo/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/birryree/hippo/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/birryree/hippo/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/birryree/hippo/releases{/id}\",\"created_at\":\"2013-12-22T21:17:43Z\",\"updated_at\":\"2013-12-22T21:17:45Z\",\"pushed_at\":\"2013-12-19T21:19:38Z\",\"git_url\":\"git://github.com/birryree/hippo.git\",\"ssh_url\":\"git@github.com:birryree/hippo.git\",\"clone_url\":\"https://github.com/birryree/hippo.git\",\"svn_url\":\"https://github.com/birryree/hippo\",\"homepage\":\"www.<GITHUB
         ORG>.com\",\"size\":492,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:37 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:27 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/boresquare/forks
@@ -907,7 +907,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:37 GMT
+      - Sat, 01 Feb 2014 02:44:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -917,7 +917,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4871'
+      - '4820'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -943,14 +943,14 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C2D1:52EC5D3D
+      - 183C75B1:55B8:3D41039:52EC5F8B
     body:
       encoding: UTF-8
       string: "[{\"id\":15382222,\"name\":\"boresquare\",\"full_name\":\"alexkuang/boresquare\",\"owner\":{\"login\":\"alexkuang\",\"id\":860492,\"avatar_url\":\"https://gravatar.com/avatar/ec4830ca2cb2c9b76330777a24e41808?d=https%3A%2F%2Fidenticons.github.com%2F2805a60935c25407b548a8bd2517d5e4.png&r=x\",\"gravatar_id\":\"ec4830ca2cb2c9b76330777a24e41808\",\"url\":\"https://api.github.com/users/alexkuang\",\"html_url\":\"https://github.com/alexkuang\",\"followers_url\":\"https://api.github.com/users/alexkuang/followers\",\"following_url\":\"https://api.github.com/users/alexkuang/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/alexkuang/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/alexkuang/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/alexkuang/subscriptions\",\"organizations_url\":\"https://api.github.com/users/alexkuang/orgs\",\"repos_url\":\"https://api.github.com/users/alexkuang/repos\",\"events_url\":\"https://api.github.com/users/alexkuang/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/alexkuang/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/alexkuang/boresquare\",\"description\":\"Where
         were you on a given date?  I bet foursquare knows.\",\"fork\":true,\"url\":\"https://api.github.com/repos/alexkuang/boresquare\",\"forks_url\":\"https://api.github.com/repos/alexkuang/boresquare/forks\",\"keys_url\":\"https://api.github.com/repos/alexkuang/boresquare/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/alexkuang/boresquare/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/alexkuang/boresquare/teams\",\"hooks_url\":\"https://api.github.com/repos/alexkuang/boresquare/hooks\",\"issue_events_url\":\"https://api.github.com/repos/alexkuang/boresquare/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/alexkuang/boresquare/events\",\"assignees_url\":\"https://api.github.com/repos/alexkuang/boresquare/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/alexkuang/boresquare/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/alexkuang/boresquare/tags\",\"blobs_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/alexkuang/boresquare/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/alexkuang/boresquare/languages\",\"stargazers_url\":\"https://api.github.com/repos/alexkuang/boresquare/stargazers\",\"contributors_url\":\"https://api.github.com/repos/alexkuang/boresquare/contributors\",\"subscribers_url\":\"https://api.github.com/repos/alexkuang/boresquare/subscribers\",\"subscription_url\":\"https://api.github.com/repos/alexkuang/boresquare/subscription\",\"commits_url\":\"https://api.github.com/repos/alexkuang/boresquare/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/alexkuang/boresquare/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/alexkuang/boresquare/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/alexkuang/boresquare/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/alexkuang/boresquare/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/alexkuang/boresquare/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/alexkuang/boresquare/merges\",\"archive_url\":\"https://api.github.com/repos/alexkuang/boresquare/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/alexkuang/boresquare/downloads\",\"issues_url\":\"https://api.github.com/repos/alexkuang/boresquare/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/alexkuang/boresquare/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/alexkuang/boresquare/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/alexkuang/boresquare/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/alexkuang/boresquare/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/alexkuang/boresquare/releases{/id}\",\"created_at\":\"2013-12-22T21:18:27Z\",\"updated_at\":\"2014-01-22T00:51:27Z\",\"pushed_at\":\"2014-01-22T00:51:25Z\",\"git_url\":\"git://github.com/alexkuang/boresquare.git\",\"ssh_url\":\"git@github.com:alexkuang/boresquare.git\",\"clone_url\":\"https://github.com/alexkuang/boresquare.git\",\"svn_url\":\"https://github.com/alexkuang/boresquare\",\"homepage\":null,\"size\":233,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"Clojure\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":15382206,\"name\":\"boresquare\",\"full_name\":\"birryree/boresquare\",\"owner\":{\"login\":\"birryree\",\"id\":809026,\"avatar_url\":\"https://gravatar.com/avatar/07c434f9f1d28ef4e53b6e20e9366726?d=https%3A%2F%2Fidenticons.github.com%2F722300a7bfea1b13321bbf6816415202.png&r=x\",\"gravatar_id\":\"07c434f9f1d28ef4e53b6e20e9366726\",\"url\":\"https://api.github.com/users/birryree\",\"html_url\":\"https://github.com/birryree\",\"followers_url\":\"https://api.github.com/users/birryree/followers\",\"following_url\":\"https://api.github.com/users/birryree/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/birryree/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/birryree/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/birryree/subscriptions\",\"organizations_url\":\"https://api.github.com/users/birryree/orgs\",\"repos_url\":\"https://api.github.com/users/birryree/repos\",\"events_url\":\"https://api.github.com/users/birryree/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/birryree/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/birryree/boresquare\",\"description\":\"Where
         were you on a given date?  I bet foursquare knows.\",\"fork\":true,\"url\":\"https://api.github.com/repos/birryree/boresquare\",\"forks_url\":\"https://api.github.com/repos/birryree/boresquare/forks\",\"keys_url\":\"https://api.github.com/repos/birryree/boresquare/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/birryree/boresquare/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/birryree/boresquare/teams\",\"hooks_url\":\"https://api.github.com/repos/birryree/boresquare/hooks\",\"issue_events_url\":\"https://api.github.com/repos/birryree/boresquare/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/birryree/boresquare/events\",\"assignees_url\":\"https://api.github.com/repos/birryree/boresquare/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/birryree/boresquare/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/birryree/boresquare/tags\",\"blobs_url\":\"https://api.github.com/repos/birryree/boresquare/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/birryree/boresquare/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/birryree/boresquare/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/birryree/boresquare/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/birryree/boresquare/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/birryree/boresquare/languages\",\"stargazers_url\":\"https://api.github.com/repos/birryree/boresquare/stargazers\",\"contributors_url\":\"https://api.github.com/repos/birryree/boresquare/contributors\",\"subscribers_url\":\"https://api.github.com/repos/birryree/boresquare/subscribers\",\"subscription_url\":\"https://api.github.com/repos/birryree/boresquare/subscription\",\"commits_url\":\"https://api.github.com/repos/birryree/boresquare/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/birryree/boresquare/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/birryree/boresquare/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/birryree/boresquare/issues/comments/{number}\",\"contents_url\":\"https://api.github.com/repos/birryree/boresquare/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/birryree/boresquare/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/birryree/boresquare/merges\",\"archive_url\":\"https://api.github.com/repos/birryree/boresquare/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/birryree/boresquare/downloads\",\"issues_url\":\"https://api.github.com/repos/birryree/boresquare/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/birryree/boresquare/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/birryree/boresquare/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/birryree/boresquare/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/birryree/boresquare/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/birryree/boresquare/releases{/id}\",\"created_at\":\"2013-12-22T21:17:19Z\",\"updated_at\":\"2014-01-25T19:31:21Z\",\"pushed_at\":\"2014-01-25T19:30:33Z\",\"git_url\":\"git://github.com/birryree/boresquare.git\",\"ssh_url\":\"git@github.com:birryree/boresquare.git\",\"clone_url\":\"https://github.com/birryree/boresquare.git\",\"svn_url\":\"https://github.com/birryree/boresquare\",\"homepage\":null,\"size\":224,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"Clojure\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:37 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:27 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/is<GITHUB ORG>doingwork.info/forks
@@ -974,7 +974,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:37 GMT
+      - Sat, 01 Feb 2014 02:44:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -984,13 +984,13 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4870'
+      - '4819'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Etag:
-      - "\"33f5849e96854efeddd11553f39ff483\""
+      - "\"dc66e9d4b459cdfbed90d2215a3485f8\""
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
@@ -1010,7 +1010,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C32F:52EC5D3D
+      - 183C75B1:55B9:41F29DD:52EC5F8B
     body:
       encoding: UTF-8
       string: "[{\"id\":16127126,\"name\":\"is<GITHUB ORG>doingwork.info\",\"full_name\":\"alexkuang/is<GITHUB
@@ -1052,7 +1052,7 @@ http_interactions:
         ORG>doingwork.info/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/alexkuang/is<GITHUB
         ORG>doingwork.info/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/alexkuang/is<GITHUB
         ORG>doingwork.info/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/alexkuang/is<GITHUB
-        ORG>doingwork.info/releases{/id}\",\"created_at\":\"2014-01-22T03:10:04Z\",\"updated_at\":\"2014-02-01T02:23:09Z\",\"pushed_at\":\"2014-02-01T02:23:07Z\",\"git_url\":\"git://github.com/alexkuang/is<GITHUB
+        ORG>doingwork.info/releases{/id}\",\"created_at\":\"2014-01-22T03:10:04Z\",\"updated_at\":\"2014-02-01T02:35:27Z\",\"pushed_at\":\"2014-02-01T02:35:27Z\",\"git_url\":\"git://github.com/alexkuang/is<GITHUB
         ORG>doingwork.info.git\",\"ssh_url\":\"git@github.com:alexkuang/is<GITHUB
         ORG>doingwork.info.git\",\"clone_url\":\"https://github.com/alexkuang/is<GITHUB
         ORG>doingwork.info.git\",\"svn_url\":\"https://github.com/alexkuang/is<GITHUB
@@ -1100,7 +1100,7 @@ http_interactions:
         ORG>doingwork.info.git\",\"svn_url\":\"https://github.com/birryree/is<GITHUB
         ORG>doingwork.info\",\"homepage\":null,\"size\":60,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":false,\"push\":false,\"pull\":true}}]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:37 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:27 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/hiroba/forks
@@ -1124,7 +1124,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:37 GMT
+      - Sat, 01 Feb 2014 02:44:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1132,7 +1132,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4869'
+      - '4818'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1160,12 +1160,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C37A:52EC5D3D
+      - 183C75B1:55B9:41F2A55:52EC5F8B
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:37 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:27 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/dominion/forks
@@ -1189,7 +1189,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:38 GMT
+      - Sat, 01 Feb 2014 02:44:28 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1197,7 +1197,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4868'
+      - '4817'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1225,12 +1225,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5590:41F08C9:52EC5D3E
+      - 183C75B1:55B9:41F2AAA:52EC5F8C
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:38 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:28 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/mochi-ideas/forks
@@ -1254,7 +1254,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:38 GMT
+      - Sat, 01 Feb 2014 02:44:28 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1262,7 +1262,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4867'
+      - '4816'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1290,12 +1290,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C3F7:52EC5D3E
+      - 183C75B1:55BA:3039335:52EC5F8C
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:38 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:28 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/xsimile/forks
@@ -1319,7 +1319,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:38 GMT
+      - Sat, 01 Feb 2014 02:44:28 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1327,7 +1327,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4866'
+      - '4815'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1355,12 +1355,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:558F:248DB95:52EC5D3E
+      - 183C75B1:55B5:7A7DF4:52EC5F8C
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:38 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:28 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/dependency-inspection/forks
@@ -1384,7 +1384,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:38 GMT
+      - Sat, 01 Feb 2014 02:44:28 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1392,7 +1392,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4865'
+      - '4814'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1420,12 +1420,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9230:52EC5D3E
+      - 183C75B1:55BB:3C6AA9A:52EC5F8C
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:38 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:28 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/<GITHUB ORG>.github.io/forks
@@ -1449,7 +1449,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:39 GMT
+      - Sat, 01 Feb 2014 02:44:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1457,7 +1457,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4864'
+      - '4813'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1485,12 +1485,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C4DD:52EC5D3E
+      - 183C75B1:55B9:41F2C71:52EC5F8D
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:39 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:29 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/simile/forks
@@ -1514,7 +1514,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:39 GMT
+      - Sat, 01 Feb 2014 02:44:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1522,7 +1522,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4863'
+      - '4812'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1550,12 +1550,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C533:52EC5D3F
+      - 183C75B1:55B7:1F5FC64:52EC5F8D
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:39 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:29 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/renderly-next/forks
@@ -1579,7 +1579,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:39 GMT
+      - Sat, 01 Feb 2014 02:44:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1587,7 +1587,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4862'
+      - '4811'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1615,12 +1615,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9376:52EC5D3F
+      - 183C75B1:55B7:1F5FCB5:52EC5F8D
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:39 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:29 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/renderly/stats/participation
@@ -1644,7 +1644,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:39 GMT
+      - Sat, 01 Feb 2014 02:44:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1654,7 +1654,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4861'
+      - '4810'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1680,12 +1680,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C93DB:52EC5D3F
+      - 183C75B1:55B9:41F2DA9:52EC5F8D
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,25,1,7,2,0,4],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:39 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:29 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/renderly/stats/participation
@@ -1709,7 +1709,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:40 GMT
+      - Sat, 01 Feb 2014 02:44:30 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1719,7 +1719,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4860'
+      - '4809'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1745,12 +1745,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C5F2:52EC5D3F
+      - 183C75B1:55BB:3C6AB6D:52EC5F8E
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,25,1,7,2,0,4],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:40 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:30 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/hippo/stats/participation
@@ -1774,7 +1774,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:40 GMT
+      - Sat, 01 Feb 2014 02:44:30 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1784,7 +1784,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4859'
+      - '4808'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1810,12 +1810,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5593:3F08369:52EC5D40
+      - 183C75B1:55B7:1F5FD82:52EC5F8E
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:40 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:30 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/hippo/stats/participation
@@ -1839,7 +1839,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:40 GMT
+      - Sat, 01 Feb 2014 02:44:31 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1849,7 +1849,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4858'
+      - '4807'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1875,12 +1875,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:558D:7BDB62:52EC5D40
+      - 183C75B1:55B9:41F30BD:52EC5F8E
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:40 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:31 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/boresquare/stats/participation
@@ -1904,7 +1904,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:41 GMT
+      - Sat, 01 Feb 2014 02:44:32 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1914,7 +1914,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4857'
+      - '4806'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -1940,12 +1940,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5590:41F0CF5:52EC5D40
+      - 183C75B1:55B8:3D4158A:52EC5F8F
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,7,8],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:41 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:32 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/boresquare/stats/participation
@@ -1969,7 +1969,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:41 GMT
+      - Sat, 01 Feb 2014 02:44:32 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1979,7 +1979,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4856'
+      - '4805'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2005,12 +2005,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9730:52EC5D41
+      - 183C75B1:55B8:3D415E1:52EC5F90
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,7,8],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:41 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:32 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/is<GITHUB ORG>doingwork.info/stats/participation
@@ -2034,7 +2034,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:41 GMT
+      - Sat, 01 Feb 2014 02:44:32 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2044,7 +2044,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4855'
+      - '4804'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2070,12 +2070,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9798:52EC5D41
+      - 183C75B1:55BB:3C6AD1C:52EC5F90
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,13,21],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:41 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:32 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/is<GITHUB ORG>doingwork.info/stats/participation
@@ -2099,7 +2099,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:42 GMT
+      - Sat, 01 Feb 2014 02:44:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2109,7 +2109,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4854'
+      - '4803'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2135,12 +2135,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9809:52EC5D41
+      - 183C75B1:55B8:3D41865:52EC5F91
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,13,21],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:42 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:34 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/hiroba/stats/participation
@@ -2164,7 +2164,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:42 GMT
+      - Sat, 01 Feb 2014 02:44:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2174,7 +2174,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4853'
+      - '4802'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2200,12 +2200,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5590:41F0E2C:52EC5D42
+      - 183C75B1:55B9:41F35AD:52EC5F92
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,22],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:42 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:34 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/hiroba/stats/participation
@@ -2229,7 +2229,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:42 GMT
+      - Sat, 01 Feb 2014 02:44:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2239,7 +2239,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4852'
+      - '4801'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2265,12 +2265,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C91F:52EC5D42
+      - 183C75B1:55B8:3D418E1:52EC5F92
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,22],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:42 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:34 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/dominion/stats/participation
@@ -2294,7 +2294,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:42 GMT
+      - Sat, 01 Feb 2014 02:44:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2304,7 +2304,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4851'
+      - '4800'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2330,12 +2330,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C992F:52EC5D42
+      - 183C75B1:55B8:3D4191B:52EC5F93
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:42 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:35 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/dominion/stats/participation
@@ -2359,7 +2359,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:43 GMT
+      - Sat, 01 Feb 2014 02:44:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2369,7 +2369,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4850'
+      - '4799'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2395,12 +2395,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C99AC:52EC5D42
+      - 183C75B1:55BA:30395CE:52EC5F93
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:43 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:35 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/mochi-ideas/stats/participation
@@ -2424,7 +2424,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:43 GMT
+      - Sat, 01 Feb 2014 02:44:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2434,7 +2434,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4849'
+      - '4798'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2460,12 +2460,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421CA06:52EC5D43
+      - 183C75B1:55B8:3D419B3:52EC5F93
     body:
       encoding: UTF-8
       string: "{\"all\":[],\"owner\":[]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:43 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:35 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/mochi-ideas/stats/participation
@@ -2489,7 +2489,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:43 GMT
+      - Sat, 01 Feb 2014 02:44:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2499,7 +2499,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4848'
+      - '4797'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2525,12 +2525,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421CA56:52EC5D43
+      - 183C75B1:55B8:3D419F7:52EC5F93
     body:
       encoding: UTF-8
       string: "{\"all\":[],\"owner\":[]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:43 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:35 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/xsimile/stats/participation
@@ -2554,7 +2554,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:43 GMT
+      - Sat, 01 Feb 2014 02:44:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2564,7 +2564,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4847'
+      - '4796'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2590,12 +2590,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:558E:126A3C9:52EC5D43
+      - 183C75B1:55B8:3D41C90:52EC5F93
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:43 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:37 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/xsimile/stats/participation
@@ -2619,7 +2619,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:44 GMT
+      - Sat, 01 Feb 2014 02:44:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2629,7 +2629,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4846'
+      - '4795'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2655,12 +2655,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:558D:7BDC03:52EC5D43
+      - 183C75B1:55BB:3C6B169:52EC5F96
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:44 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:38 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/dependency-inspection/stats/participation
@@ -2684,7 +2684,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:44 GMT
+      - Sat, 01 Feb 2014 02:44:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2694,7 +2694,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4845'
+      - '4794'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2720,12 +2720,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9BBB:52EC5D44
+      - 183C75B1:55B9:41F3C1A:52EC5F96
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:44 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:38 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/dependency-inspection/stats/participation
@@ -2749,7 +2749,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:44 GMT
+      - Sat, 01 Feb 2014 02:44:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2759,7 +2759,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4844'
+      - '4793'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2785,12 +2785,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9C1A:52EC5D44
+      - 183C75B1:55B9:41F3C86:52EC5F96
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:44 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:38 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/<GITHUB ORG>.github.io/stats/participation
@@ -2814,7 +2814,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:44 GMT
+      - Sat, 01 Feb 2014 02:44:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2824,7 +2824,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4843'
+      - '4792'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2850,12 +2850,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421CBEA:52EC5D44
+      - 183C75B1:55BB:3C6B1E7:52EC5F96
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:44 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:38 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/<GITHUB ORG>.github.io/stats/participation
@@ -2879,7 +2879,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:45 GMT
+      - Sat, 01 Feb 2014 02:44:39 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2889,7 +2889,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4842'
+      - '4791'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2915,12 +2915,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5590:41F11CC:52EC5D44
+      - 183C75B1:55B7:1F6092F:52EC5F96
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:45 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:39 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/simile/stats/participation
@@ -2944,7 +2944,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:46 GMT
+      - Sat, 01 Feb 2014 02:44:39 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2954,7 +2954,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4841'
+      - '4790'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -2980,12 +2980,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44C9FB8:52EC5D46
+      - 183C75B1:55B8:3D41DFE:52EC5F97
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:46 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:39 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/simile/stats/participation
@@ -3009,7 +3009,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:46 GMT
+      - Sat, 01 Feb 2014 02:44:39 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3019,7 +3019,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4840'
+      - '4789'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3045,12 +3045,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44CA02B:52EC5D46
+      - 183C75B1:55B8:3D41E49:52EC5F97
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:46 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:39 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/renderly-next/stats/participation
@@ -3074,7 +3074,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:47 GMT
+      - Sat, 01 Feb 2014 02:44:40 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3084,7 +3084,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4839'
+      - '4788'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3110,12 +3110,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421CEBF:52EC5D47
+      - 183C75B1:55BB:3C6B354:52EC5F97
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:47 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:40 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/<GITHUB ORG>/renderly-next/stats/participation
@@ -3139,7 +3139,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:47 GMT
+      - Sat, 01 Feb 2014 02:44:40 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3149,7 +3149,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4838'
+      - '4787'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3175,12 +3175,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421CF17:52EC5D47
+      - 183C75B1:55B9:41F4025:52EC5F98
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:47 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:40 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/renderly/stats/participation
@@ -3204,7 +3204,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:47 GMT
+      - Sat, 01 Feb 2014 02:44:40 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3214,7 +3214,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4837'
+      - '4786'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3240,12 +3240,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421CF53:52EC5D47
+      - 183C75B1:55BB:3C6B3B9:52EC5F98
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,25,1,7,2,1,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,25,1,7,2,1,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:47 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:40 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/renderly/stats/participation
@@ -3269,7 +3269,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:47 GMT
+      - Sat, 01 Feb 2014 02:44:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3279,7 +3279,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4836'
+      - '4785'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3305,12 +3305,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5590:41F15B8:52EC5D47
+      - 183C75B1:55BA:30397CA:52EC5F99
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,25,1,7,2,1,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,25,1,7,2,1,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:47 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:41 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/hippo/stats/participation
@@ -3334,7 +3334,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:49 GMT
+      - Sat, 01 Feb 2014 02:44:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3344,7 +3344,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4835'
+      - '4784'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3370,12 +3370,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:558F:248E51C:52EC5D49
+      - 183C75B1:55B6:3901AE3:52EC5F99
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:49 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:41 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/hippo/stats/participation
@@ -3399,7 +3399,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:49 GMT
+      - Sat, 01 Feb 2014 02:44:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3409,7 +3409,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4834'
+      - '4783'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3435,12 +3435,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421D1B5:52EC5D49
+      - 183C75B1:55B8:3D420C9:52EC5F99
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:49 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:41 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/alexkuang/boresquare/stats/participation
@@ -3464,7 +3464,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:49 GMT
+      - Sat, 01 Feb 2014 02:44:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3474,7 +3474,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4833'
+      - '4782'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3500,12 +3500,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44CA5B0:52EC5D49
+      - 183C75B1:55B8:3D42104:52EC5F99
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,12,5,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,12,5,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:49 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:41 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/alexkuang/boresquare/stats/participation
@@ -3529,7 +3529,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:50 GMT
+      - Sat, 01 Feb 2014 02:44:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3539,7 +3539,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4832'
+      - '4781'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3565,12 +3565,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421D23A:52EC5D4A
+      - 183C75B1:55B7:1F60D26:52EC5F99
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,12,5,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,12,5,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:50 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:42 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/boresquare/stats/participation
@@ -3594,7 +3594,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:50 GMT
+      - Sat, 01 Feb 2014 02:44:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3604,7 +3604,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4831'
+      - '4780'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3630,12 +3630,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421D271:52EC5D4A
+      - 183C75B1:55B8:3D42194:52EC5F9A
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,7,7],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,7,7]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:50 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:42 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/boresquare/stats/participation
@@ -3659,7 +3659,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:50 GMT
+      - Sat, 01 Feb 2014 02:44:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3669,7 +3669,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4830'
+      - '4779'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3695,12 +3695,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44CA6F0:52EC5D4A
+      - 183C75B1:55BB:3C6B4F1:52EC5F9A
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,7,7],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,7,7]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:50 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:42 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/alexkuang/is<GITHUB ORG>doingwork.info/stats/participation
@@ -3724,7 +3724,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:50 GMT
+      - Sat, 01 Feb 2014 02:44:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3734,7 +3734,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4829'
+      - '4778'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3760,12 +3760,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44CA741:52EC5D4A
+      - 183C75B1:55B8:3D42224:52EC5F9A
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,13,25],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,25]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:50 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:42 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/alexkuang/is<GITHUB ORG>doingwork.info/stats/participation
@@ -3789,7 +3789,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:51 GMT
+      - Sat, 01 Feb 2014 02:44:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3799,7 +3799,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4828'
+      - '4777'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3825,12 +3825,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421D33D:52EC5D4A
+      - 183C75B1:55B8:3D42273:52EC5F9A
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,13,25],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,25]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:51 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:42 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/is<GITHUB ORG>doingwork.info/stats/participation
@@ -3854,7 +3854,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:51 GMT
+      - Sat, 01 Feb 2014 02:44:43 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3864,7 +3864,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4827'
+      - '4776'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3890,12 +3890,12 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5590:41F1A48:52EC5D4B
+      - 183C75B1:55B9:41F445E:52EC5F9B
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:51 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:43 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/birryree/is<GITHUB ORG>doingwork.info/stats/participation
@@ -3919,7 +3919,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:51 GMT
+      - Sat, 01 Feb 2014 02:44:43 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -3929,7 +3929,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4826'
+      - '4775'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -3955,10 +3955,10 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5591:44CA85E:52EC5D4B
+      - 183C75B1:55BB:3C6B59E:52EC5F9B
     body:
       encoding: UTF-8
       string: "{\"all\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0],\"owner\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0]}"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:51 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:43 GMT
 recorded_with: VCR 2.8.0

@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sat, 01 Feb 2014 02:34:36 GMT
+      - Sat, 01 Feb 2014 02:44:43 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,7 +33,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4875'
+      - '4774'
       X-Ratelimit-Reset:
       - '1391223298'
       Cache-Control:
@@ -59,7 +59,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 183C75B1:5592:421C164:52EC5D3C
+      - 183C75B1:55BB:3C6B5E0:52EC5F9B
     body:
       encoding: UTF-8
       string: "[{\"id\":15229879,\"name\":\"renderly\",\"full_name\":\"<GITHUB ORG>/renderly\",\"owner\":{\"login\":\"<GITHUB
@@ -750,5 +750,5 @@ http_interactions:
         ORG>/renderly-next.git\",\"ssh_url\":\"git@github.com:<GITHUB ORG>/renderly-next.git\",\"clone_url\":\"https://github.com/<GITHUB
         ORG>/renderly-next.git\",\"svn_url\":\"https://github.com/<GITHUB ORG>/renderly-next\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"master_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}}]"
     http_version: 
-  recorded_at: Sat, 01 Feb 2014 02:34:36 GMT
+  recorded_at: Sat, 01 Feb 2014 02:44:43 GMT
 recorded_with: VCR 2.8.0
