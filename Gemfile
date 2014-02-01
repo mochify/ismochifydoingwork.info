@@ -36,6 +36,7 @@ gem 'faraday-http-cache'
 gem 'twitter-bootstrap-rails' # Only on bs 2.3.2, but convenient so live with it for now.
 gem 'd3_rails'
 gem 'underscore-rails'
+gem 'react-rails', '~> 0.8.0.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -44,7 +45,7 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'vcr'
   gem 'webmock'

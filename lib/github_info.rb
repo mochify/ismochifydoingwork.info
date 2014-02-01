@@ -4,7 +4,7 @@ require 'date'
 
 class GithubInfo
   Octokit.configure do |c|
-    c.access_token = ENV.fetch("MOCHIFYDOINGWORK_OAUTH")
+    c.access_token = ENV.fetch("MOCHIFYDOINGWORK_OAUTH", "OAUTH_NOT_FOUND")
   end
 
   stack = Faraday::RackBuilder.new do |builder|
@@ -17,7 +17,7 @@ class GithubInfo
 
   class << self
     def root_repositories
-      repositories = Octokit.organization_repositories(ENV.fetch("MOCHIFYDOINGWORK_ORGNAME"))
+      repositories = Octokit.organization_repositories(ENV.fetch("MOCHIFYDOINGWORK_ORGNAME", "ORG_NOT_FOUND"))
       repositories.select { |repo| !repo.fork }
     end
 

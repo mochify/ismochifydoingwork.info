@@ -10,7 +10,7 @@
 }
 #commit-chart .bar-label {
     fill: white;
-    text-anchor: end;
+    text-anchor: middle;
 }
 #commit-chart .axis path,
 #commit-chart .axis line {
@@ -49,4 +49,10 @@
 
 @keyframes spin {
     100% {  transform: rotate(359deg); }
+}
+
+.loader:after {
+    content: "(loading from github...)";
+    font-style: italic;
+    display: block;
 }

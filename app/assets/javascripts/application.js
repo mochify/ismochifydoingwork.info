@@ -16,4 +16,5 @@
 //= require turbolinks
 //= require d3
 //= require underscore
+//= require react
 //= require_tree .
