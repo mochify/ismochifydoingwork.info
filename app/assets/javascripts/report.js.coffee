@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-MochiReport = {};
+MochiReport = window.MochiReport || {};
 
 
 toggleLoadIndicator = (selector) ->
@@ -81,8 +81,10 @@ recentCommitChart = (selector, data) ->
     .attr("dy", "1em").text((d) -> d);
 
 
-MochiReport.recentCommitChart = recentCommitChart;
-MochiReport.toggleLoadIndicator = toggleLoadIndicator;
+jQuery.extend(MochiReport, {
+    recentCommitChart: recentCommitChart,
+    toggleLoadIndicator: toggleLoadIndicator
+});
 
 # Other libs seem to have a lot of stuff with typeof in case it's used in a module context vs in a browser or whatnot,
 # but not necessary for now I guess.  Just expose to the global namespace.
