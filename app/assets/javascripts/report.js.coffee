@@ -72,8 +72,12 @@ recentCommitChart = (selector, data) ->
 
   # The +/-i offsets seem a bit hacky, probably a better way to do this.
   bars.append("rect")
-    .attr("y", (d) -> yScale(d))
+    .attr("y", (d) -> chartHeight)
     .attr("width", (d) -> barWidth - 2)
+    .attr("height", (d) -> 0)
+    .transition()
+    .duration(2000)
+    .attr("y", (d) -> yScale(d))
     .attr("height", (d) -> chartHeight - yScale(d))
 
   bars.append("text")
