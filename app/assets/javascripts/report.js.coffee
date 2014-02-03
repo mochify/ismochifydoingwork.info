@@ -41,6 +41,8 @@ recentCommitChart = (selector, data) ->
     .attr("width", elementWidth).attr("height", elementHeight)
     .attr("transform", "translate(" + chartMargin.left + "," + chartMargin.top + ")");
 
+  chart.selectAll("g").remove();
+
   chart.append("g")
     .attr("class", "axis x")
     .attr("transform", "translate(0," + chartHeight + ")")
