@@ -54,7 +54,7 @@ class GithubInfo
         # later, in which case the response is nil.  Apparently octokit doesn't handle this automatically (it does die
         # on non-2xx and 3xx codes, but not on 202), so we have to; however, I'm only willing to wait a few seconds
         # before moving on.
-        while (octokit_response.nil? && retries < 7) do
+        while (octokit_response.nil? && retries < 15) do
           octokit_response = Octokit.participation_stats(repo.full_name)
           retries += 1
           sleep(1)
